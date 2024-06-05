@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Chatten 2", sans-serif;
+}
+
+header {
+    padding: 0 4vw;
+    width: 100%;
+    min-height: 80px;
+    background: linear-gradient(109deg, #0088ff, #0800ff, #9d00ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.bs-theme {
+    display: none;
+}
+
+.menu-items i {
+    cursor: pointer;
+}
+
+.menu-items i:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+aside {
+    transition: 0.3s ease;
+    background-color: #212529;
+}
+
+.aside {
+    width: 300px;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid gainsboro;
+}
+
+.aside-icons {
+    display: none;
+}
+
+.aside-hide {
+    width: 80px;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid gainsboro;
+}
+
+.aside-hide .aside-icons {
+    font-size: 20px;
+    display: block;
+}
+
+.aside-hide li {
+    width: 80%;
+}
+
+.aside-hide .aside-items {
+    display: none;
+}
+
+ul.list-unstyled {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-hide ul.list-unstyled li {
+    padding: 1vw 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.aside ul.list-unstyled li {
+    width: 80%;
+    padding: 1vw 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.aside-btn-wrapper {
+    width: 70px;
+    height: 70px;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #212529;
+    border-right: 1px solid gainsboro;
+}
+
+.aside-btn {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#pages {
+    width: 100%;
+    min-height: 100%;
+}
+
+table td {
+    margin: auto;
+}
